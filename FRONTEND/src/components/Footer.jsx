@@ -68,15 +68,15 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>999-999-9999</span>
+              <span>8853657502</span>
             </div>
             <div>
               <MdEmail />
-              <span>zeelab@gmail.com</span>
+              <span>ashrafkhan000025.com</span>
             </div>
             <div>
               <FaLocationArrow />
-              <span>Toronto, Canada</span>
+              <span>E-18,Beta-1,Greater Noida (Uttar Pradesh) </span>
             </div>
           </div>
         </div>

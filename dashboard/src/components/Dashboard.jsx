@@ -64,9 +64,9 @@ const Dashboard = () => {
                 </h5>
               </div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis, nam molestias. Eaque molestiae ipsam commodi neque.
-                Assumenda repellendus necessitatibus itaque.
+                Welcome to the Lifeline HMS Admin Dashboard. From here, you can manage patients, doctors, and appointments efficiently. 
+    Monitor hospital activities, update records, and ensure smooth coordination across all departments. 
+    Stay organized and maintain high-quality healthcare services with ease.
               </p>
             </div>
           </div>

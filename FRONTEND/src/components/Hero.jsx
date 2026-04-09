@@ -6,8 +6,9 @@ const Hero = ({ title, imageUrl }) => {
             <div className="banner">
                 <h1>{title}</h1>
                 <p>
-                    Al-Shifa Hospital and Medical Institute is a modern healthcare and teaching facility dedicated to providing quality medical services along with academic excellence in medical education. Rooted in the Islamic value of “Shifa” meaning healing, the institute focuses on compassionate patient care, advanced treatment methods, and research-oriented learning. With specialized departments, experienced doctors, and well-equipped laboratories, it not only serves the community’s health needs but also nurtures future medical professionals through training and practical exposure.
-
+               Lifeline HMS (Hospital Management System) is a modern full-stack healthcare solution designed to streamline hospital operations and improve patient care. It enables efficient management of patients,
+                doctors, appointments, and medical records through a centralized and user-friendly platform. The system ensures secure data handling and provides real-time access to information, allowing smooth coordination between different departments. With features like appointment scheduling,
+                 patient record management, and administrative controls, Lifeline HMS enhances operational efficiency and supports better healthcare service delivery.
                 </p>
 
             </div>

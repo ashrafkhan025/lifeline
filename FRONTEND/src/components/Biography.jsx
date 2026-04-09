@@ -11,12 +11,29 @@ const Biography = ({imageUrl}) => {
           Biography
         </p>
         <h3>Who We Are</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fugit, maiores ut nemo vel incidunt quibusdam eum deserunt necessitatibus magnam doloribus! Iure consequatur mollitia a velit saepe placeat repudiandae! Repudiandae.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vero laboriosam placeat dolorem illum vel quo quibusdam odio possimus, reprehenderit dolore consequuntur iusto harum, quos alias exercitationem consequatur tempora voluptates labore, suscipit ipsam vitae provident!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cum placeat corrupti!</p>
-        <p>Lorem, ipsum dolor.</p>
+        <p>
+  Lifeline HMS is a modern hospital management system designed to simplify and digitize healthcare operations through a centralized platform.
+</p>
+
+<p>
+  It enables efficient management of patients, doctors, appointments, and medical records, reducing manual work and improving accuracy.
+</p>
+
+<p>
+  The system is built with a user-friendly interface to ensure smooth interaction for both healthcare staff and administrators.
+</p>
+
+<p>
+  Lifeline HMS focuses on secure data handling and real-time access to information, helping hospitals improve coordination across departments.
+</p>
+
+<p>
+  By integrating modern technologies, it enhances workflow efficiency and supports better decision-making in healthcare environments.
+</p>
+
+<p>
+  Our goal is to deliver a reliable solution that improves overall hospital management and patient care experience.
+</p>
 
       </div>
       
