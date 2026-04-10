@@ -13,11 +13,12 @@ const Dashboard = () => {
     const fetchAppointments = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4000/api/v1/appointment/getall",
+          `${import.meta.env.VITE_BACKEND_URL}/api/v1/appointment/getall`,
           { withCredentials: true }
         );
         setAppointments(data.appointments);
       } catch (error) {
+        console.log(error)
         setAppointments([]);
       }
     };
@@ -27,7 +28,7 @@ const Dashboard = () => {
   const handleUpdateStatus = async (appointmentId, status) => {
     try {
       const { data } = await axios.put(
-        `http://localhost:4000/api/v1/appointment/update/${appointmentId}`,
+        `${import.meta.env.VITE_BACKEND_URL}/api/v1/appointment/update/${appointmentId}`,
         { status },
         { withCredentials: true }
       );
