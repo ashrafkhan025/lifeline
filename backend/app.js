@@ -20,9 +20,14 @@ const app = express();
 config({path: "./config/config.env" });
 
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://lifeline-frontend2.onrender.com",
+    "https://lifeline-dashboard1.onrender.com"
+  ],
   credentials: true
-}))
+}));
 
 app.use(cookieParser());
 app.use(express.json());
