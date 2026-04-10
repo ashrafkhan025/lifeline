@@ -35,6 +35,9 @@ app.use(fileupload({
     tempFileDir: "/tmp/",
 })
 );
+app.get('/',(req,res)=>{
+    res.send("API WORKING")
+})
 
 app.use("/api/v1/message", messageRouter);
 app.use("/api/v1/user", userRouter);
